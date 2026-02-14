@@ -1,0 +1,78 @@
+.main-footer-continer {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 200px;
+    grid-gap: 50px;
+}
+
+.first-footer-container {
+    flex: 1;
+    text-align: center;
+}
+
+.first-footer-container p {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.first-footer-container p:hover {
+    cursor: text;
+}
+.first-footer-container h1 {
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.first-footer-container a {
+    font-family: poppins, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-get-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-Quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer-continer a {
+    font-family: poppins, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.main-footer-continer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-footer-continer h3 {
+    font-family: poppins, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-polices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+

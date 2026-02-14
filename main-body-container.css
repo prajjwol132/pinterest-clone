@@ -1,0 +1,157 @@
+.main-body-container {
+    margin-top: 100px;
+    background-color: #f5f5f5;
+}
+
+.main-title {
+    font-family: poppins, sans-serif;
+    font-size: 48px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.main-body-container-title {
+    text-align: center;
+}
+
+.main-body-container-title p {
+    font-family: poppins, sans-serif;
+    font-size: 21px;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.5;
+}
+
+.main-body-container-title p:hover{
+    cursor: text;
+}
+
+.main-title :hover{
+    cursor: text;
+}
+
+.main-body-container-image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.first-img-gird img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px 50px 50px 50px;
+    padding-left: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.first-text-gird {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-text-gird h1 {
+    font-family: poppins, sans-serif;
+    font-size: 38px;
+}
+
+.first-text-gird p {
+    font-family: poppins, sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding-right: 40%;
+    margin-bottom: 25px;
+}
+
+.first-text-gird button {
+    background-color: rgb(243, 11, 11);
+    width: 150px;
+    color: white;
+    height: 45px;
+    border-radius: 12px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+.first-text-gird p:hover {
+    cursor: text;
+}
+.first-text-gird h1:hover {
+    cursor: text;
+}
+.first-text-gird button:hover {
+    background-color: #c70000;
+    cursor: pointer;
+}
+
+.main-body-container-image-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding-bottom: 50px;
+}
+
+.second-img-gird img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px 50px 50px 50px;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.second-text-gird {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-text-gird button {
+    background-color: rgb(243, 11, 11);
+    width: 150px;
+    color: white;
+    height: 45px;
+    border-radius: 12px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    margin-left: 30%;
+}
+
+.second-text-gird p {
+    font-family: poppins, sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-left: 30%;
+    margin-bottom: 25px;
+}
+
+.second-text-gird h1 {
+    font-family: poppins, sans-serif;
+    font-size: 38px;
+    margin-left: 30%;
+}
+
+.second-text-gird p:hover {
+    cursor: text;
+}
+
+.second-text-gird h1:hover {
+    cursor: text;
+}
+
+.second-text-gird button:hover {
+    background-color: #c70000;
+    cursor: pointer;
+}
